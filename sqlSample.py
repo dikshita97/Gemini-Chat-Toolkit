@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 ## Connect to SQlite
 connection = sqlite3.connect("employees.db")
 
-# Create a cursor object to insert record,create table
+# Create a cursor object to insert record,create table, retrieve
 cursor = connection.cursor()
 
 ## create the table
